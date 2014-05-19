@@ -6,7 +6,8 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 
 // configuration =================
-mongoose.connect('mongodb://AlexKund:praseskitara35@novus.modulusmongo.net:27017/Nu2noguw');
+// mongoose.connect('mongodb://AlexKund:praseskitara35@novus.modulusmongo.net:27017/Nu2noguw');
+mongoose.connect('mongodb://localhost:27017/todolist');
 
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
 app.use(logger('dev')); // log every request to the console
