@@ -1,0 +1,4 @@
+Mongo URI
+mongodb://<user>:<pass>@novus.modulusmongo.net:27017/Nu2noguw
+Mongo Console
+mongo novus.modulusmongo.net:27017/Nu2noguw -u <user> -p <pass>
